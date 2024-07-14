@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import ContactSection from "./components/footerTop";
 import Navbar from "./components/Navbar";
 import "./globals.css";
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body className="">
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
+        <ContactSection />
         <Footer />
       </body>
     </html>

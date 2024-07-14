@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/service", key: "services", label: "Services" },
+  { href: "/services", key: "services", label: "Services" },
   { href: "/products", key: "products", label: "Products" },
   { href: "/about", key: "about", label: "About Us" },
   { href: "/teams", key: "teams", label: "Teams" },
@@ -53,6 +53,11 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Function to determine if a link is active
+  const isActive = (href) => {
+    return window.location.pathname === href;
+  };
+
   return (
     <nav className="flex items-center justify-between max-w-[90%] mx-auto relative z-30 py-5">
       <Link className="flex items-center gap-2 font-bold" href="/">
@@ -70,7 +75,11 @@ const Navbar = () => {
           <li key={link.key}>
             <Link
               href={link.href}
-              className="text-[16px] text-[#585858] hover:text-[#23AFFF] flex items-center justify-center cursor-pointer pb-1.5 transition-all"
+              className={`text-[16px] text-[#585858] ${
+                isActive(link.href)
+                  ? "text-[#23AFFF] hover:text-[#23AFFF]"
+                  : "hover:text-[#23AFFF]"
+              } flex items-center justify-center cursor-pointer pb-1.5 transition-all`}
             >
               {link.label}
             </Link>
@@ -78,12 +87,13 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="lg:flex lg:items-center lg:justify-center hidden">
-        <button
+        <Link
+          href="/contact"
           type="button"
           className="py-4 px-14 rounded-full bg-[#292C27] transition-all font-bold hover:bg-black text-white"
         >
           Contact Us
-        </button>
+        </Link>
       </div>
       {isMenuOpen ? (
         <span
@@ -121,7 +131,11 @@ const Navbar = () => {
                 >
                   <Link
                     href={link.href}
-                    className="text-[16px] text-[#585858] hover:text-[#23AFFF] flex items-center justify-center cursor-pointer pb-1.5 transition-all"
+                    className={`text-[16px] text-[#585858] ${
+                      isActive(link.href)
+                        ? "text-[#23AFFF] hover:text-[#23AFFF]"
+                        : "hover:text-[#23AFFF]"
+                    } flex items-center justify-center cursor-pointer pb-1.5 transition-all`}
                   >
                     {link.label}
                   </Link>
@@ -129,12 +143,13 @@ const Navbar = () => {
               ))}
             </motion.ul>
             <div className="flex items-center justify-center mt-4">
-              <button
+              <Link
+                href="/contact"
                 type="button"
                 className="py-4 px-14 rounded-full bg-[#292C27] transition-all font-bold hover:bg-black text-white"
               >
                 Contact Us
-              </button>
+              </Link>
             </div>
           </motion.div>
         )}

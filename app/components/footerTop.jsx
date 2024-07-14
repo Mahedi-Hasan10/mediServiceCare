@@ -1,0 +1,47 @@
+"use client";
+import React from "react";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFax } from "react-icons/fa";
+
+const ContactSection = () => {
+  return (
+    <div className="bg-gray-100 text-gray-600 body-font">
+      <div className="container px-5 py-24 mx-auto flex lg:flex-row flex-col ">
+        <div className="flex flex-col w-1/2 mb-12 text-center">
+          <img src="/logo.png" alt="logo" className="mx-auto w-16 h-10 mb-2" />
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            Medi Service Care
+          </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Medi Service Care Ltd. is a sales and service oriented private
+            limited company in operation since 1985.
+          </p>
+        </div>
+        <div className="w-1/2">
+          <div className="p-4 w-full">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              Contact Us
+            </h2>
+            <p className="leading-relaxed">Chattogram Office</p>
+            <p className="leading-relaxed mt-2">
+              <FaMapMarkerAlt className="inline-block mr-2" /> 125, K.B. Fazlul
+              Kader Road, 3rd Floor, ChawkBazar, Chattogram
+            </p>
+            <p className="leading-relaxed mt-2">
+              <FaEnvelope className="inline-block mr-2" />{" "}
+              tvl.ctg@tradevision.com.bd
+            </p>
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 mt-4">
+              Registered Office
+            </h2>
+            <p className="leading-relaxed mt-2">
+              <FaMapMarkerAlt className="inline-block mr-2" /> 15/17 Shantinagar
+              Bazar Road, Dhaka-1217, Bangladesh
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ContactSection;
