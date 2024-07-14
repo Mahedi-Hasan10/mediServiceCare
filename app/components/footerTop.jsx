@@ -12,8 +12,7 @@ const ContactSection = () => {
             Medi Service Care
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Medi Service Care Ltd. is a sales and service oriented private
-            limited company in operation since 1985.
+            All Kind Of Medical Equipment Installation, Repairing And Service
           </p>
         </div>
         <div className="lg:w-1/2">
@@ -21,21 +20,21 @@ const ContactSection = () => {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               Contact Us
             </h2>
-            <p className="leading-relaxed">Chattogram Office</p>
+            <p className="leading-relaxed">Dhaka Office</p>
             <p className="leading-relaxed mt-2">
-              <FaMapMarkerAlt className="inline-block mr-2" /> 125, K.B. Fazlul
-              Kader Road, 3rd Floor, ChawkBazar, Chattogram
+              <FaMapMarkerAlt className="inline-block mr-2" /> 256/2,wesr
+              sewarapara,Mirpur, Dhaka1216,Bangladesh
             </p>
             <p className="leading-relaxed mt-2">
               <FaEnvelope className="inline-block mr-2" />{" "}
-              tvl.ctg@tradevision.com.bd
+              mediservice43@gmail.com
             </p>
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 mt-4">
               Registered Office
             </h2>
             <p className="leading-relaxed mt-2">
-              <FaMapMarkerAlt className="inline-block mr-2" /> 15/17 Shantinagar
-              Bazar Road, Dhaka-1217, Bangladesh
+              <FaMapMarkerAlt className="inline-block mr-2" /> 256/2,wesr
+              sewarapara,Mirpur, Dhaka1216,Bangladesh
             </p>
           </div>
         </div>
