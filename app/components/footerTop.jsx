@@ -6,7 +6,7 @@ const ContactSection = () => {
   return (
     <div className="bg-gray-100 text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex lg:flex-row flex-col ">
-        <div className="flex flex-col w-1/2 mb-12 text-center">
+        <div className="flex flex-col lg:w-1/2 mb-12 text-center">
           <img src="/logo.png" alt="logo" className="mx-auto w-16 h-10 mb-2" />
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
             Medi Service Care
@@ -16,7 +16,7 @@ const ContactSection = () => {
             limited company in operation since 1985.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <div className="p-4 w-full">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
               Contact Us
