@@ -55,7 +55,10 @@ const Navbar = () => {
 
   // Function to determine if a link is active
   const isActive = (href) => {
-    return window.location.pathname === href;
+    if (typeof window !== "undefined") {
+      return window.location.pathname === href;
+    }
+    return false; // Handle SSR fallback, such as returning false
   };
 
   return (
