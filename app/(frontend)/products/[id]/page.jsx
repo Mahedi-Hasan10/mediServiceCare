@@ -8,7 +8,7 @@ const products = [
     name: "Infrared Thermometer",
     description:
       "Non-contact infrared thermometer for quick temperature measurement.",
-    img: "https://dummyimage.com/720x400",
+    img: "/product1.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const products = [
     name: "Digital Stethoscope",
     description:
       "Advanced digital stethoscope with noise cancellation and recording capabilities.",
-    img: "https://dummyimage.com/721x401",
+    img: "/boat.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const products = [
     name: "Blood Pressure Monitor",
     description:
       "Accurate and easy-to-use blood pressure monitor for home or clinical use.",
-    img: "https://dummyimage.com/722x402",
+    img: "/banner3.png",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const products = [
     name: "Blood Pressure Monitor",
     description:
       "Accurate and easy-to-use blood pressure monitor for home or clinical use.",
-    img: "https://dummyimage.com/722x402",
+    img: "/product1.jpg",
   },
 ];
 

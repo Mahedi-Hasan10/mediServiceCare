@@ -22,8 +22,7 @@ const ContactSection = () => {
             </h2>
             <p className="leading-relaxed">Dhaka Office</p>
             <p className="leading-relaxed mt-2">
-              <FaMapMarkerAlt className="inline-block mr-2" /> 256/2,wesr
-              sewarapara,Mirpur, Dhaka1216,Bangladesh
+              <FaMapMarkerAlt className="inline-block mr-2" /> House-982, East Shewrapara, mirpur Dhaka 1216.
             </p>
             <p className="leading-relaxed mt-2">
               <FaEnvelope className="inline-block mr-2" />{" "}
@@ -33,8 +32,7 @@ const ContactSection = () => {
               Registered Office
             </h2>
             <p className="leading-relaxed mt-2">
-              <FaMapMarkerAlt className="inline-block mr-2" /> 256/2,wesr
-              sewarapara,Mirpur, Dhaka1216,Bangladesh
+              <FaMapMarkerAlt className="inline-block mr-2" />House-982, East Shewrapara, mirpur Dhaka 1216.
             </p>
           </div>
         </div>

@@ -24,21 +24,21 @@ const GallerySection = () => {
               <img
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/500x300"
+                src="/product1.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/501x301"
+                src="/banner.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-full">
               <img
                 alt="gallery"
                 className="w-full h-full object-cover object-center block"
-                src="https://dummyimage.com/600x360"
+                src="/banner2.jpg"
               />
             </div>
           </div>
@@ -47,21 +47,21 @@ const GallerySection = () => {
               <img
                 alt="gallery"
                 className="w-full h-full object-cover object-center block"
-                src="https://dummyimage.com/601x361"
+                src="/banner3.png"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/502x302"
+                src="/boat.png"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/503x303"
+                src="/product1.jpg"
               />
             </div>
           </div>

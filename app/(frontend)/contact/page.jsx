@@ -23,8 +23,7 @@ const ContactSection = () => {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Photo booth tattooed prism, portland taiyaki hoodie neutra
-                typewriter
+                256/2,wesr sewarapara,Mirpur, Dhaka1216,Bangladesh
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -35,12 +34,12 @@ const ContactSection = () => {
                 href="mailto:example@email.com"
                 className="text-indigo-500 leading-relaxed"
               >
-                example@email.com
+                mediservice43@gmail.com
               </a>
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <p className="leading-relaxed">01733469343</p>
             </div>
           </div>
         </div>

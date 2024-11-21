@@ -36,7 +36,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            @noyonbiswas
+            @nayanbiswas
           </a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

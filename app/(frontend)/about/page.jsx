@@ -5,12 +5,12 @@ const AboutUs = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col">
-        <div className="lg:w-4/6 mx-auto">
+        <div className="">
           <div className="rounded-lg h-64 overflow-hidden">
             <img
               alt="content"
               className="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1200x500"
+              src="/product1.jpg"
             />
           </div>
           <div className="flex flex-col sm:flex-row mt-10">
@@ -20,7 +20,10 @@ const AboutUs = () => {
               </div>
               <div className="flex flex-col items-center text-center justify-center">
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
-                  Phoebe Caulfield
+                  Md. Nayan Biswas (Rasel)
+                </h2>
+                <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
+                  CEO & Founder
                 </h2>
                 <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                 <p className="text-base">

@@ -7,7 +7,7 @@ const services = [
     title: "Operation Theatre Lights",
     description:
       "High-quality, reliable operation theatre lights to ensure precision in surgeries.",
-    img: "https://dummyimage.com/720x400",
+    img: "/product1.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const services = [
     title: "Equipment Servicing",
     description:
       "Comprehensive servicing of all medical equipment to ensure optimal performance.",
-    img: "https://dummyimage.com/721x401",
+    img: "/product1.jpg",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const services = [
     title: "Hospital Beds",
     description:
       "Durable and comfortable hospital beds for patient care and recovery.",
-    img: "https://dummyimage.com/722x402",
+    img: "/product1.jpg",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const services = [
     title: "Setup & Installation",
     description:
       "Professional setup and installation of medical equipment in healthcare facilities.",
-    img: "https://dummyimage.com/723x403",
+    img: "/product1.jpg",
   },
 ];
 
