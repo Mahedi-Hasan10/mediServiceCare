@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Sidebar({ isExpanded, toggleSidebar }) {
     const menuItems = [
         
-        { icon: () => <Image width={20} height={20} src="/profile.webp" alt="Profile" className="h-5 w-5 rounded-full" />, label: 'Admin', href: '/profile' },
+        // { icon: () => <Image width={20} height={20} src="/profile.webp" alt="Profile" className="h-5 w-5 rounded-full" />, label: 'Admin', href: '/profile' },
         { icon: RiDashboardLine, label: 'Dashboard', href: '/' },
         { icon: RiCalendarLine, label: 'services', href: '/admin/sevices' },
         { icon: RiUserLine, label: 'product', href: '/admin/product' },
@@ -25,7 +25,17 @@ export default function Sidebar({ isExpanded, toggleSidebar }) {
                     <span className="mx-auto text-xl font-bold text-white">D</span>
                 )}
             </div>
-
+                <div className="flex">
+                {isExpanded ? (
+                    <>
+                    <Image width={20} height={20} src="/profile.webp" alt="Profile" className="h-7 w-7 ml-5 rounded-full" />
+                    <span className="ml-3 truncate">Admin</span>
+                    </>
+                ) : (   
+                    <Image width={20} height={20} src="/profile.webp" alt="Profile" className="h-7 w-7 ml-5 rounded-full" />
+                )    
+                }
+                </div>
             {/* Collapse Button */}
             <button
                 onClick={toggleSidebar}
