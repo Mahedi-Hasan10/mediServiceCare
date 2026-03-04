@@ -42,7 +42,7 @@ export const metadata = {
     canonical: "/",
   },
   verification: {
-    google: process.env.GOOGLE_SEARCH_CONSOLE_ID || "YOUR_GOOGLE_SEARCH_CONSOLE_CODE",
+    google: process.env.GOOGLE_SEARCH_CONSOLE_ID,
   },
   robots: {
     index: true,
